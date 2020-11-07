@@ -9,7 +9,7 @@
       </div>
       <div class="list-box">
         <h3>{{ $t("message.billdue") }}</h3>
-        <p>{{ $d(getDueBillDate(), 'short') }}</p>
+        <p>Immediately</p>
         <button class="simple" v-on:click="openBill()">{{ $t("message.viewbill") }}</button>
       </div>
       <div class="list-box">
@@ -19,7 +19,7 @@
           {{ $t("message.off") }}
         </p>
         <p v-else>
-          <i class="pi pi-circle-check pi-grey"></i>
+          <i class="pi pi-circle-close pi-grey"></i>
           {{ $t("message.on") }}
         </p>
         <button class="simple" v-on:click="enrollInBillPay()">{{ $t("message.autopay_enroll") }}</button>

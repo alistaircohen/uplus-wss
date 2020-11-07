@@ -5,6 +5,7 @@ module.exports = {
     '@vue/airbnb',
   ],
   rules: {
+    'linebreak-style': ["error", "windows"],
     'operator-linebreak': 'off',
     'prefer-destructuring': 'off',
     'guard-for-in': 'off',

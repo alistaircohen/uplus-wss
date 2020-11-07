@@ -4,7 +4,7 @@ header,
 main .secondary-options .front-option::after,
 .benefits li::after,
 #ChatLauncherminimized, #launcher, #launcherminimized, #servicecaselauncherminimized {
-	background-color: #0076DE;
+	background-color: #18BC9C;
 }
 
 header .menu-overlay a:hover,
@@ -28,10 +28,25 @@ body .color-brand {
 }
 /* Account page */
 .form>header {
-	background-image: url('../img/hero-1.jpg');
+	/*background-image: url('../img/hero-1.jpg');*/
+	padding:0;
 }
 
 /* Offer page */
 .offer header {
 	background-image: url('../img/hero-1.jpg');
+}
+
+.headerwrapper {
+	background-color: #2C3E50;
+}
+.wrap.header.flex {
+	padding: 14rem;
+	background-color: #2C3E50;
+	max-width: 1300rem;
+
+}
+
+.wrap.header {
+	align-items: center;
 }

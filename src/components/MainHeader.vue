@@ -7,29 +7,31 @@
         : {}
     "
   >
-    <div class="wrap header flex">
-      <a>
-        <img v-on:click="goHomePage" class="logo" :src="'./img/u+-logo.svg'" alt="U+" />
-      </a>
-      <nav class="flex-grow-1">
-        <ul class="flex flex-mid-align flex-grow-1">
-          <MenuItem v-for="item in app.menuitems" v-bind:key="item.title" v-bind:title="item.title"></MenuItem>
-        </ul>
-      </nav>
-      <a
-        class="kmhelp"
-        v-if="(isAuthenticated ||  settings.kmhelp.username !== '') && settings.kmhelp.url !== ''"
-        v-on:click="showKMHelp"
-      >{{ $t('message.kmhelp') }}</a>
-      <OperatorButton v-if="isAuthenticated" />
-      <LoginButton v-else />
-      <MainHeaderMenu />
+    <div class="headerwrapper">
+      <div class="wrap header flex">
+        <a>
+          <img v-on:click="goHomePage" class="logo" :src="'./img/eess-logo.png'" alt="EESS" />
+        </a>
+        <nav class="flex-grow-1">
+          <!--<ul class="flex flex-mid-align flex-grow-1">-->
+            <!--<MenuItem v-for="item in app.menuitems" v-bind:key="item.title" v-bind:title="item.title"></MenuItem>-->
+          <!--</ul>-->
+        </nav>
+        <a
+          class="kmhelp"
+          v-if="(isAuthenticated ||  settings.kmhelp.username !== '') && settings.kmhelp.url !== ''"
+          v-on:click="showKMHelp"
+        >{{ $t('message.kmhelp') }}</a>
+        <OperatorButton v-if="isAuthenticated" />
+        <LoginButton v-else />
+        <MainHeaderMenu />
+      </div>
     </div>
   </header>
 </template>
 
 <script>
-import MenuItem from './controls/MenuItem.vue';
+/* import MenuItem from './controls/MenuItem.vue'; */
 import MainHeaderMenu from './widgets/MainHeaderMenu.vue';
 import OperatorButton from './widgets/OperatorButton.vue';
 import LoginButton from './widgets/LoginButton.vue';
@@ -122,7 +124,7 @@ export default {
     },
   },
   components: {
-    MenuItem,
+    /* MenuItem, */
     LoginButton,
     OperatorButton,
     MainHeaderMenu,

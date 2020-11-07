@@ -72,7 +72,7 @@ window.app = {
   ],
   offers: [
     {
-      img: 'offer-image.jpg',
+      img: 'offer-image-dic.jpg',
       title: 'offer1_title',
       message: 'offer1_msg',
     },
