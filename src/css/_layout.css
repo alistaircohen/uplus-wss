@@ -613,6 +613,7 @@ div.inline-middle > button:last-child {
 
 div[data-pega-gadgetname] {
   width: 100%;
+  box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.8);
 }
 
 /* tab layout */
