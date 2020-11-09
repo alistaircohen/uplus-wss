@@ -5,14 +5,25 @@
   >
     <div class="wrap hero-wrap flex">
       <div class="flex flex-col">
-        <h1 class="hero">
-          {{ hero_offer.title }}
-          <br v-if="hero_offer.message != ''" />
-          {{ hero_offer.message }}
-        </h1>
-        <button v-on:click="applyHeroAction" class="more">
-          {{ hero_offer.link }}
-        </button>
+         <div id="row">
+            <div class="row1">
+                <ul class="__links">
+                    <li><a class="__link" href="">Selling of electrical equipment in Australia</a></li>
+                    <li><a class="__link" href="">Steps for compliance with EESS</a></li>
+                    <li><a class="__link" href="">Information and advisory notices</a></li>
+                    <li><a class="__link" href="">About the EESS</a></li>
+                    <li><a class="__link" href="">ACMA requirements</a></li>
+                </ul>
+            </div>
+            <div class="row2">
+                <ul class="__buttons">
+                    <li><a class="__button" href="#RegistrationLoginModal">Responsible Supplier &amp; Equipment Registration Login</a></li>
+                    <li><a class="__button" href="">Search Responsible Suppliers</a></li><li><a class="__button" href="">Search Registered Equipment</a></li>
+                    <li><a class="__button" href="#EquipmentLoginModal">Equipment Certification Login</a></li>
+                    <li><a class="__button" href="">Search Certification</a></li>
+                </ul>
+            </div>
+        </div>
       </div>
     </div>
     <div class="wrap options primary-options">
@@ -22,11 +33,6 @@
         class="front-option"
       >
         <div>
-          <img
-            class="option"
-            :src="item.img"
-            :alt="$t('message.' + item.title)"
-          />
         </div>
         <div class="details">
           <h2 class="option-header">{{ $t('message.' + item.title) }}</h2>
