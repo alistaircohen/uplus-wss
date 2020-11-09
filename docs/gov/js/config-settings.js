@@ -132,7 +132,7 @@ window.settings = {
     application: '',
     extraparam: '',
     hideactivity: false,
-    hideaccount: false,
+    hideaccount: true,
     hideKPI: true,
   },
   kmhelp: {

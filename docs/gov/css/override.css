@@ -4,7 +4,7 @@ header,
 main .secondary-options .front-option::after,
 .benefits li::after,
 #ChatLauncherminimized, #launcher, #launcherminimized, #servicecaselauncherminimized {
-	background-color: #0076DE;
+	background-color: #18BC9C;
 }
 
 header .menu-overlay a:hover,
@@ -23,15 +23,95 @@ body .color-brand {
 }
 
 /* Home page */
+h2 {
+    color: #000 !important;
+    font-weight: normal !important;
+}
 .front>header {
-	background-image: url('../img/hero-1.jpg');
+	/*background-image: url('../img/hero-1.jpg');*/
+	background-position: 50% 53% !important;
+    background-size: contain !important;
+    background-color: #18BC9C;
+	/*margin-top: -58px;*/
 }
 /* Account page */
 .form>header {
-	background-image: url('../img/hero-1.jpg');
+	/*background-image: url('../img/hero-1.jpg');*/
+	padding:0;
 }
 
 /* Offer page */
 .offer header {
 	background-image: url('../img/hero-1.jpg');
+}
+
+.headerwrapper {
+	background-color: #2C3E50;
+}
+.wrap.header.flex {
+	padding: 14rem;
+	background-color: #2C3E50;
+	max-width: 1300rem;
+
+}
+
+.wrap.header {
+	align-items: center;
+}
+
+div#row div.row1 {
+    float: left;
+}
+
+div#row div.row2 {
+    float: left;
+    margin-left: 50px;
+}
+
+div#row .__link{
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 50px;
+    background: transparent url(../img/link_background.png) no-repeat;
+    padding-left: 20px;
+}
+
+div#row .__button {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: #2C3E50 url(../img/button_background.png) no-repeat center right;
+    padding-right: 30px;
+}
+/*.hero-wrap button.more {
+    width: 194rem !important;
+    border-radius: 40px;
+    color: #0064c1 !important;
+    display: none;
+}*/
+.primary-options>.front-option>.details {
+    margin-top: 100rem !important;
+    border: 1px solid rgba(0,0,0,0.125);
+    padding: 10px;
+    text-align: left;
+}
+
+.primary-options>.front-option>.details a {
+    color: #fff;
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    padding: 3px 5px;    
+    font-size: 0.8em;
+    border-radius: 3px;
+    font-weight: normal;
+}
+
+.primary-options>.front-option>.details p {
+	font-size: 1em;
 }
