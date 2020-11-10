@@ -36,13 +36,14 @@ window.settings = {
       },
       action: 'createNewWork',
       actionparam: '',
-      objclass: '',
-      url: '',
+      objclass: 'ESV-EESS-Work-Registration-Apply',
+      url: 'https://eess.pegatsdemo.com/prweb/app/eess_8274/',
       startcase: 'pyStartCase',
-      application: '',
+      application: 'EESS',
       icon: '',
-      extraparam: '',
+      extraparam: 'pzSkinName=EES',
       hide: false,
+      "channelid":"MASHUP7ddc749c1c224d108e55b0a9465ad317",
     },
     {
       title: {
@@ -56,7 +57,7 @@ window.settings = {
       application: '',
       icon: '',
       extraparam: '',
-      hide: false,
+      hide: true,
     },
     {
       title: {
@@ -70,7 +71,7 @@ window.settings = {
       application: '',
       icon: '',
       extraparam: '',
-      hide: false,
+      hide: true,
     },
     {
       title: {
@@ -84,7 +85,7 @@ window.settings = {
       application: '',
       icon: '',
       extraparam: '',
-      hide: false,
+      hide: true,
     },
     {
       title: {
@@ -98,7 +99,7 @@ window.settings = {
       application: '',
       icon: '',
       extraparam: '',
-      hide: false,
+      hide: true,
     },
   ],
   billpay: {
@@ -170,7 +171,7 @@ window.settings = {
   },
   users: [
     {
-      username: 'joe@pegasystems.com',
+      username: 'BigNameSupplier',
       password: 'rules',
       img: 'avatar-1.jpg',
       company_name: '',
@@ -179,7 +180,7 @@ window.settings = {
       contactID: '',
       customerID: '',
       extraparam: '',
-      pega_userid: 'jsmith',
+      pega_userid: 'Supplier1',
       pega_pwd: 'rules',
       bill_pay: 164.8,
       load_by_default: true,
