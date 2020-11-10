@@ -612,7 +612,6 @@ div.inline-middle > button:last-child {
 }
 
 div[data-pega-gadgetname] {
-  width: 100%;
   background: #efefef;
   border-radius: 8px;
   box-shadow: 1px 0px 13px 0px rgba(50, 50, 50, 0.8);
