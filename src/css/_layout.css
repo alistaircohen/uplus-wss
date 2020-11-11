@@ -611,6 +611,10 @@ div.inline-middle > button:last-child {
   margin-right: 0;
 }
 
+/* div[data-pega-action-param-harnessname="pyTodoList"]{
+  border: 1px solid #e6e7e8;
+} */
+
 div[data-pega-gadgetname] {
   background: #ffffff;
   border-radius: 8px;

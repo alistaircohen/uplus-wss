@@ -275,6 +275,7 @@ div#ChatFooter {
 .chat-button #OnlineHelp.alerting,
 .chat-button #ServiceCaseGadget.alerting {
   bottom: 20px;
+  min-width: 550px;
 }
 
 .chat-button #OnlineHelp.minimized,
@@ -330,4 +331,54 @@ div#ChatFooter {
 .chat-button #unreadCounter {
   transform: none;
   top: -4px;
+}
+
+/**
+CUSTOM CHAT CONFIG BELOW
+*/
+
+/* window size */
+chat-button #OnlineHelp.alerting, .chat-button #ServiceCaseGadget.alerting {
+  bottom: 20px;
+  min-width: 550px;
+}
+/* Chat header background colour */
+.channel_client .chat-header {
+  background-color: #2C3E50;
+}
+/* Chat bot icon background colour */
+.channel_client .chat-header .chat-icon {
+  background: #18BC9C;
+}
+/* Send button icon background colour */
+.channel_client .submit-button button.Strong.pzhc.pzbutton {
+  background-color: #18BC9C;
+}
+/* Send button icon background colour for hover/active/focus state */
+.channel_client .submit-button button.Strong.pzbutton:not([disabled]):hover,
+.channel_client .submit-button .Strong button.buttonTdButton:not([disabled]):hover,
+.channel_client .submit-button button.Strong:not([disabled]):hover,
+.channel_client .submit-button button.Strong.pzbutton:not([disabled]):active,
+.channel_client .submit-button .Strong button.buttonTdButton:not([disabled]):active,
+.channel_client .submit-button button.Strong:not([disabled]):active,
+.channel_client .submit-button button.Strong.pzbutton:not([disabled]):focus,
+.channel_client .submit-button .Strong button.buttonTdButton:not([disabled]):focus,
+.channel_client .submit-button button.Strong:not([disabled]):focus {
+ background-color: #0c8b72;
+}
+/* Chat icon for bot - background colour */
+.channel_client .simulator-icon {
+  background: #18BC9C;
+}
+/* Customer chat message background colour */
+.channel_client .conversation .client_input {
+  background: #18BC9C;
+}
+/* Attachment icon colour */
+.channel_client .add-attachment i {
+  color: #2C3E50;
+}
+/* Submit area top border */
+.channel_client .submit_area {
+  border-top: 2px solid #2C3E50;
 }
