@@ -612,10 +612,15 @@ div.inline-middle > button:last-child {
 }
 
 div[data-pega-gadgetname] {
-  background: #efefef;
+  background: #ffffff;
   border-radius: 8px;
-  box-shadow: 1px 0px 13px 0px rgba(50, 50, 50, 0.8);
 }
+
+div[data-pega-threadname="ESVEESSWorkRegistrationApply"],
+div[data-pega-action-param-harnessname="ManageEquipment"] {
+  background: #efefef;
+  box-shadow: 1px 0px 13px 0px rgba(50, 50, 50, 0.8);
+  }
 
 /* tab layout */
 [role='tablist'] li {
