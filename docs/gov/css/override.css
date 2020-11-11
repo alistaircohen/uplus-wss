@@ -162,3 +162,9 @@ chat-button #OnlineHelp.alerting, .chat-button #ServiceCaseGadget.alerting {
 .channel_client .submit_area {
     border-top: 2px solid #2C3E50;
 }
+
+/* Chat bot window size */
+.chat-button #OnlineHelp.alerting, .chat-button #ServiceCaseGadget.alerting {
+    bottom: 20px;
+    min-width: 550px;
+}
