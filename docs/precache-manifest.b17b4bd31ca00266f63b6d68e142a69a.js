@@ -116,7 +116,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./fonts/uikit-icons.f28962ba.woff2"
   },
   {
-    "revision": ".7dc47b0969b503aa10bb1df8560725",
+    "revision": ".4b6fb2d5a2d667d656bbfdf8d525e1",
     "url": "./gov/css/override.css"
   },
   {
