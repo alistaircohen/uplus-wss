@@ -167,7 +167,7 @@ input[type='color'] {
   transition: opacity 0.25s ease-out;
   z-index: 1000;
   max-width: 465px;
-  min-width: 465px;
+  /*min-width: 465px;*/
 }
 
 .overlay.logout {
@@ -228,6 +228,9 @@ button.launch-login:focus {
   background: #fff;
   color: #295ed9;
   border: 1px solid transparent;
+  position: absolute;
+  right:28px;
+  top:40px;
 }
 
 button.launch-menu {
